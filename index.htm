@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ludo Game</title>
+</head>
+<body>
+    <div class="container">
+        <div class="child-container">
+            <!-- display -->
+
+          <div class="display" id="Dis1">0</div>
+          <div class="display" id="Dis2">0</div>
+
+
+        </div>
+        
+        <div class="child-container">
+             <!-- images -->
+            <img src="images/face1.png" id="img1">
+            <img src="images/face1.png" id="img2">
+            </div>
+
+        <div class="child-container">
+            <!-- buttons -->
+        <button id="start" class="btn"> Start</button>
+        <button id="reset" class="btn"> Reset</button>
+         <button id="Player1" class="btn" onclick="changeValue()"> Player 1</button>
+         <button id="Player2" class="btn"> Player 2</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
